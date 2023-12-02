@@ -3,7 +3,7 @@
 */
 
 type TypeProps = {
-  title: string,
+  title: string | number;
 };
 
 class Component<TypeProps> {
@@ -11,9 +11,11 @@ class Component<TypeProps> {
 };
 
 class Page extends Component<TypeProps> {
-  pageInfo () {
+  pageInfo() {
     console.log(this.props.title);
   }
 };
 
-export {Page};
+export { Page };
+
+
