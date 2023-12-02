@@ -5,7 +5,7 @@
 
 
 function getPromise(): Promise<T> {
-  return new Promise((resolve) => {
+  return new Promise((resolve)=> {
     resolve (['Text', 50]);
   });
 }
