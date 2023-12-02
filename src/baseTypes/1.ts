@@ -7,4 +7,4 @@ let empty: null = null;
 let notInitialize: any;
 let callback: Function = (a: number) => { return 100 + a };
 
-export {callback};
+export {};
