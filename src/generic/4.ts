@@ -3,11 +3,11 @@
 */
 
 type TypeProps = {
-  title: string | number;
+  title: string;
 };
 
-class Component<TypeProps> {
-    constructor(public props: TypeProps) {}
+class Component<T> {
+    constructor(public props: T) {}
 };
 
 class Page extends Component<TypeProps> {
